@@ -17,12 +17,8 @@
              private $price;
 
              // メソッドを定義する
-             public function set_price(string $price) {
-                $this->price = $price;
-             }
-            
              public function show_price() {
-             echo $this->price . '<br>';
+                echo $this->price . '<br>';
              }
 
              //　コンストラクタを定義する
@@ -41,9 +37,6 @@
             private $weight;
 
             // メゾットを定義する
-            public function set_height(string $height) {
-                $this->height =$height;
-            }
             public function show_height() {
                 echo $this->height . '<br>';
             }
